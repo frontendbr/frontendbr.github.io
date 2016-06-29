@@ -1,1 +1,3 @@
-# frontendbr.github.io
+# Website da Organização Front-End Brasil
+
+Visite: http://frontendbr.github.io
