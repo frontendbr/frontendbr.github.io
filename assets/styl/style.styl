@@ -1,0 +1,148 @@
+@import "_all"
+
+//
+// Scaffolding
+// ----------------------------------------------------------------------------
+
+// General Grid
+.header,
+.content,
+.footer
+    row()
+
+// Header
+.header
+    .logo
+        display: block
+        text-align: center
+        margin: 20px auto
+        width: 300px
+        max-width: 100%
+    .lead-title
+        margin-top: 0
+        text-align: center
+        padding: 20px
+        font-size: base-font-size + 3
+        color: color-subtitle
+
+// Main content
+.content
+    margin: 40px auto
+
+.section
+    column(10)
+    offset(1)
+
+// Footer
+.footer
+    margin: 20px auto
+    border-top: 1px solid #e3e3e3
+    p, a
+        text-align: center
+        color: darken(color-font, 10%)
+
+//
+// Helpers
+// ----------------------------------------------------------------------------
+
+// Navigation
+.nav-main
+    width: 100%
+    display: table
+    margin: 20px auto
+
+.nav-structure
+    width: 100%
+    display: table
+    margin: 20px auto
+
+.nav-list
+    unstyled()
+    .nav-item
+        column(4)
+        @media phone
+            column(12)
+        .nav-link
+            display: block
+            margin: 10px auto
+            text-align: center
+            text-transform: uppercase
+            letter-spacing: 0.0625em
+            color: color-negative
+
+// Buttons
+.btn
+    btn(darken(btn-color, 15%), 2px)
+    text-shadow: 0 1px 1px darken(btn-color, 60%)
+    @media phone
+        column(12)
+    &:hover
+        btn(darken(btn-color, 25%), 2px)
+
+// Types
+.title
+    border-bottom: 1px solid color-negative
+
+.sub-title
+    color: color-subtitle
+    border-left: 2px solid color-subtitle
+    padding-left: 10px
+
+.box
+    padding: 20px
+    display: block
+    width: 300px
+    max-width: 100%
+    margin: 60px auto
+    border: 2px solid lighten(color-recommend, 50%)
+    color: lighten(color-recommend, 30%)
+    text-align: center
+    text-transform: uppercase
+    font-size: base-font-size - 2
+    font-weight: 700
+    &:hover
+        border: 2px solid lighten(color-recommend, 20%)
+
+
+
+// .text-notready
+//     border-left: 2px solid darken(color-notready, 20%)
+//     background: lighten(color-notready, 96%)
+//     p
+//         color: darken(color-notready, 20%)
+// .text-recommend
+//     margin-top: 20px
+//     color: color-recommend
+//     border-left: 2px solid darken(color-recommend, 20%)
+//     background: lighten(color-recommend, 96%)
+//     h4
+//         margin: 2px auto
+//         font-weight: 400
+//     h4, p, ul, li, a
+//         color: darken(color-recommend, 20%)
+// .text-important
+//     margin-top: 20px
+//     color: color-important
+//     border-left: 2px solid darken(color-important, 20%)
+//     background: lighten(color-important, 96%)
+//     h4
+//         margin: 2px auto
+//         font-weight: 400
+//     h4, p, ul, li, a
+//         color: darken(color-important, 20%)
+
+
+.centered-parent
+    position: relative
+    height: 100vh
+.centered-child
+    position: absolute
+    top: 50%
+    left: 50%
+    transform: translate(-50%, -50%)
+    @media phone
+        width: 80%
+
+
+// Responsive
+@import "_general/responsive"

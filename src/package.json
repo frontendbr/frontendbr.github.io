@@ -1,0 +1,32 @@
+{
+    "name": "frontendbr",
+    "version": "0.1.0",
+    "title": "Front-End Brasil",
+    "homepage": "http://frontendbr.github.io",
+    "description": "Website da Organização Front-End Brasil",
+    "private": true,
+    "author": {
+        "name": "Vitor Britto",
+        "url": "http://vitorbritto.com.br",
+        "email": "code@vitorbritto.com.br"
+    },
+    "repository": {
+        "type": "git",
+        "url": "git://github.com/frontendbr/frontendbr.github.io.git"
+    },
+    "bugs": {
+        "url": "https://github.com/frontendbr/sugestoes/issues"
+    },
+    "engines": {
+        "node": ">=0.10.0",
+        "npm": ">=1.1.0"
+    },
+    "devDependencies": {
+        "grunt": "~0.4.2",
+        "grunt-browser-sync": "~0.3.0",
+        "grunt-contrib-watch": "~0.5.3",
+        "grunt-contrib-stylus": "~0.11.0",
+        "time-grunt": "~0.1.1",
+        "load-grunt-tasks": "~0.2.0"
+    }
+}
