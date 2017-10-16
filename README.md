@@ -1,10 +1,8 @@
 <p align="center">
-<img src="https://github.com/frontendbr/brand/blob/master/src/png/logo-600px--horizontal--color.png" width="400" alt="Front-end Brasil">
+<img src="https://raw.githubusercontent.com/frontendbr/brand/f33a3aa9/src/png/logo-600px--horizontal--color.png" width="400" alt="Front-end Brasil">
 </p>
 <h1 align="center">Website</h1>
-<p align="center">Website da organização Front-End Brasil.</p>
-
-http://frontendbr.github.io
+<p align="center">:earth_americas: Website da organização Front-End Brasil.</p>
 
 ________
 #### Repositórios da Front-End Brasil
