@@ -66,9 +66,9 @@ display block{width:102.08333333333333%;margin:0 -1.0416666666666665%;*width:102
 .footer p,.footer a{text-align:center;color:#49525f}
 .nav-main{width:100%;display:table;margin:20px auto}
 .nav-structure{width:100%;margin:20px auto}
-.nav-list{list-style-image:none;list-style-type:none;margin:0;padding:0;display:flex;flex-flow:row wrap;justify-content:center;}
+.nav-list{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;-o-box-orient:horizontal;-webkit-box-lines:multiple;-moz-box-lines:multiple;-o-box-lines:multiple;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:center;-moz-box-pack:center;-o-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}
 .nav-list .nav-item{display:inline;float:left;overflow:hidden;width:31.25%;margin:0 1.0416666666666665%;*width:31.25% -correction;*margin:0 1.0416666666666665% -correction;}
-@media screen and (max-width: 767px){.nav-list .nav-item{display:inline;overflow:hidden;width:97.91666666666666%;margin:0 1.0416666666666665%;*width:97.91666666666666% -correction;*margin:0 1.0416666666666665% -correction}
+@media screen and (max-width: 767px){.nav-list .nav-item{display:inline;float:left;overflow:hidden;width:97.91666666666666%;margin:0 1.0416666666666665%;*width:97.91666666666666% -correction;*margin:0 1.0416666666666665% -correction}
 }.nav-list .nav-item .nav-link{display:block;margin:10px auto;text-align:center;text-transform:uppercase;letter-spacing:.0625em;color:#ecf0f1}
 .btn{background:#78839e;color:btn-link;padding:16px 24px;-webkit-border-radius:2px;-moz-border-radius:2px;-ms-border-radius:2px;-o-border-radius:2px;-webkit-border-radius:2px;border-radius:2px;border-bottom:2px solid #717a8f;text-shadow:0 1px 1px #373d4c;}
 @media screen and (max-width: 767px){.btn{display:inline;float:left;overflow:hidden;width:97.91666666666666%;margin:0 1.0416666666666665%;*width:97.91666666666666% -correction;*margin:0 1.0416666666666665% -correction}
