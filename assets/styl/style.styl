@@ -53,11 +53,12 @@
 
 .nav-structure
     width: 100%
-    display: table
     margin: 20px auto
 
 .nav-list
-    unstyled()
+    display: flex
+    flex-flow: row wrap
+    justify-content: center
     .nav-item
         column(4)
         @media phone
