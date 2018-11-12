@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/survey"
-to = "https://frontendbr.github.io/survey"
+from = "/:site"
+to = "https://frontendbr.github.io/:site"
 status = 301
 force = false
