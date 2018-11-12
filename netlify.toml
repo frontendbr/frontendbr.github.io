@@ -1,5 +1,5 @@
 [[redirects]]
-from = "/:site"
-to = "https://frontendbr.github.io/:site"
+from = "/*"
+to = "https://frontendbr.github.io/:splat"
 status = 200
-force = false
+force = true
