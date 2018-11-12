@@ -1,0 +1,5 @@
+[[redirects]]
+from = "/survey"
+to = "https://frontendbr.github.io/survey"
+status = 301
+force = false
