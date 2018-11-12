@@ -2,4 +2,3 @@
 from = "/*"
 to = "https://frontendbr.github.io/:splat"
 status = 200
-force = true
