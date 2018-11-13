@@ -1,6 +1,6 @@
 [[redirects]]
-from = "/survey"
-to = "https://frontendbr-survey.netlify.com"
+from = "/survey/*"
+to = "https://frontendbr-survey.netlify.com/:splat"
 status = 200
 
 [[redirects]]
