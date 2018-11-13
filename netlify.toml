@@ -1,9 +1,9 @@
 [[redirects]]
-from = "/survey/*"
-to = "https://frontendbr-survey.netlify.com/:splat"
+from = "https://survey.frontendbr.com.br"
+to = "https://frontendbr-survey.netlify.com"
 status = 200
 
 [[redirects]]
-from = "/eventos"
+from = "https://eventos.frontendbr.com.br"
 to = "https://frontendbr.github.io/eventos"
 status = 200
