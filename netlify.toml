@@ -1,4 +1,9 @@
 [[redirects]]
-from = "/*"
-to = "https://frontendbr.github.io/:splat"
+from = "/eventos"
+to = "https://eventos.frontendbr.com.br"
+status = 200
+
+[[redirects]]
+from = "/survey"
+to = "https://survey.frontendbr.com.br"
 status = 200
