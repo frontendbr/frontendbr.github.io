@@ -1,9 +1,9 @@
 [[redirects]]
 from = "/eventos"
 to = "https://eventos.frontendbr.com.br"
-status = 200
+status = 301
 
 [[redirects]]
 from = "/survey"
 to = "https://survey.frontendbr.com.br"
-status = 200
+status = 301
