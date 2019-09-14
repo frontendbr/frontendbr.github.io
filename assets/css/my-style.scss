@@ -1,0 +1,230 @@
+body {
+    margin: 0;
+    padding: 0;    
+    font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+
+    header {
+        display: flex;
+        justify-content: space-between;
+        padding: .3em 0 .3em .3em;
+
+        .logo {
+            display: block;
+            margin: 0 .7em;
+
+            h1 {
+                text-align: justify;
+                text-transform: uppercase;
+
+                a {
+                    text-decoration: none;
+                    color: #fff;
+
+                    span {
+                        margin: 0;
+                        line-height: 0;
+                    }
+
+                    .front {
+                        display: block;
+                        font-size: 16px;
+                    }
+
+                    .Brasil {
+
+                    }
+
+                    .chave {
+                        font-size: 60px;
+                    }
+                }
+            }
+        }
+
+        .btn-hamb {
+            height: 0.8em;
+            width: 30px;
+            margin: 1.7em 1em 0 0;
+            cursor: pointer;
+
+            .linha-1 {
+                display: block;
+                background: #fff;
+                width: 2em;
+                height: .2em;
+                border-radius: 3px;
+                margin-bottom: .3em;
+            }
+
+            .linha-2 {
+                display: block;
+                background: #fff;
+                width: 2em;
+                height: .2em;
+                border-radius: 3px;
+            }
+        }
+
+        .menu {
+            a {                
+            display: none;
+            }
+        }
+    }
+
+    h2,h3 {
+        color: #8888dd;
+        font-size: 16px;
+        font-weight: 600;
+        text-transform: uppercase;
+    }
+
+    header, footer, .btn-github {
+        background: #8888dd;
+    }
+
+    .ver-tudo {
+        background: #ffffff;
+        border: 2px solid #7777dd;
+        border-radius: 4px;
+        text-transform: uppercase;
+        padding: .3em 0;
+        margin: 0 5em;
+
+        a {
+            text-decoration: none;
+            font-size: 14px;
+            font-weight: 700;
+            color: #8888dd;
+        }
+    }
+
+    section {
+        margin: 3em 0;
+        .conteudo {
+            text-align: center;
+        }
+    }
+
+    .inicio {
+        .intro {
+            text-transform: uppercase;            
+            margin: 0 2em;
+
+            p {
+                color: #888888;
+                font-size: 12px;
+            }
+
+            span {
+                color: #333333;
+                font-weight: 600;
+                font-size: 20px;
+            }
+        }
+
+        .box {
+            display: flex;
+            justify-content: center;     
+            height: 12em;
+            width: 100;
+            margin: 2.5em;
+            border-radius: 8px;
+            box-shadow: 0 0 .5em #00000030;
+            z-index: 1;
+            
+            a{
+                text-decoration: none;
+                margin: 0;
+                width: 100%;
+            }
+
+            img {
+                display: block;
+                height: 83%;
+                width: 100%;
+                background: #aaa;
+                border-radius: 8px 8px 0 0;
+            }
+
+            p {
+                position: relative;
+                background-color: #0099ff;
+                color: #ffffff;
+                width: 100%;
+                font-size: 12px;
+                font-weight: 600;
+                padding: 0.7em 0;
+                margin: 0;
+                opacity: 0.7;
+                border-radius: 0 0 8px 8px;
+            }
+        }
+
+        .descricao {
+            margin: 0 2em;
+            font-size: 14px;
+            
+            p {
+                color: #555555;
+                font-weight: 100;
+
+                span {
+                    font-weight: 600;
+                }
+            }
+        }
+
+        .btn-github {
+            margin: 0 3em;
+            border-radius: 5px;
+            padding: 0.4em 0;
+            
+            a {
+                display: flex;
+                justify-content: center;
+                text-decoration: none;
+
+                img {
+                    background: #fff;
+                    width: 12px;
+                    height: 12px;
+                    align-self: center;
+                    margin-right: 0.7em;
+                }
+
+                p {
+                    color: #fff;
+                    font-weight: 700;
+                    font-size: 12px;
+                    text-transform: uppercase;
+                }
+            }
+           
+        }
+
+    }
+
+    footer {
+        color: #fff;
+        text-align: center;
+
+        .parag-1 {
+            font-weight: bold;
+            font-size: 16px;
+            margin: 0;
+            padding-top: 1em;
+        }
+
+        .parag-2 {
+            font-size: 14px;
+            margin: 0;
+            padding-bottom: 1em;
+
+            span {
+                font-size: 20px;
+                color: #ff0000;
+            }
+        }
+    }
+}
