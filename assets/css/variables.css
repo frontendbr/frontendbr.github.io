@@ -1,0 +1,19 @@
+/* spaces */
+:root {
+  --space-xxs: .4rem;
+  --space-xs: .8rem;
+  --space-sm: 1.6rem;
+  --space: 2.4rem;
+  --space-md: 3.2rem;
+  --space-lg: 4.8rem;
+  --space-xlg: 6.4rem;
+  --space-xxlg: 9.6rem;
+  /* media queries */
+  --screen-xs: 360px;
+  --screen-sm: 768px;
+  --screen-md: 960px;
+  --screen-lg: 1280px;
+  --screen-xlg: 1920px;
+}
+
+/*# sourceMappingURL=variables.css.map */
