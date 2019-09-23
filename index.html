@@ -9,138 +9,131 @@
     <meta name="keywords" content="front-end, frontend, comunidade, html, css, javascript, brasil">
     <meta name="viewport" content="width=device-width">
     <link type="text/plain" rel="author" href="humans.txt" />
-    <link href="//fonts.googleapis.com/css?family=Lato:100,300,400,700" rel="stylesheet" type="text/css">
-    <link rel="stylesheet" href="assets/css/my-style.css">
+    <link rel="stylesheet" href="assets/css/reset.css">
+    <link rel="stylesheet" href="assets/css/style.css">
 </head>
 
-<body>
-    <header>
-        <div class="logo">
-            <h1>
-                <a href="#">
-                    <span class="front">Front-End</span>
-                    <span class="Brasil">Brasil</span>
-                </a>
-            </h1>
+<body class="body">
+    <header class="header bg-main" role="banner">
+        <h1>
+            <a href="index.html" class="a-reset">
+                <img src="./assets/images/logo-600px--horizontal--white.png" alt="Logo da Front-End Brasil"
+                    class="logo">
+            </a>
+        </h1>
 
-        </div>
+        <input type="checkbox" name="check" id="check" class="check">
+
+        <label for="check" class="btn-hamb">
+            <img src="./assets/images/btn-hamb.svg" alt="Botão para expandir menu">
+        </label>
 
         <div class="menu">
-            <a href="#forum">Fórum</a>
-            <a href="#vagas">Vagas</a>
-            <a href="#open">Open Source</a>
-            <a href="#apoiadores">Apoiadores</a>
-            <a href="#outras">Outras Iniciativas</a>
-            <a href="#">
-                <img src="" alt="Ícone do Github">Github
-            </a>
-        </div>
-
-        <div class="btn-hamb">
-            <span class="linha-1"></span>
-            <span class="linha-2"></span>
+            <a href="#forum" class="menu-item a-reset text-second">Fórum</a>
+            <a href="#vaga" class="menu-item a-reset text-second">Vagas</a>
+            <a href="#open" class="menu-item a-reset text-second">Open Source</a>
+            <a href="#sugestao" class="menu-item a-reset text-second">Sugestões</a>
+            <a href="#outra" class="menu-item a-reset text-second">Outras Iniciativas</a>
         </div>
     </header>
 
-    <section class="inicio">
-        <div class="conteudo">
+    <section class="main text-center">
+        <div class="container">
 
-            <div class="intro">
-                <p>Sobre a organização front-end Brasil</p>
-                <span>Portando discussões feitas em grupos para issues</span>
+            <div class="intro line-w-sm">
+                <p class="intro__parag text-third text-upper">Sobre a organização front-end Brasil</p>
+                <p class="text-upper text-bold">Portando discussões feitas em grupos para issues</p>
             </div>
 
-            <div class="box">
-                <a href="#">
-                    <img src="" alt="Foto do repositório do Front-end Brasil">
-                    <p>Organização Front-end Brasil no GitHub</p>
-                </a>
+            <div class="box-image">
+                <img src="./assets/images/front-end-start.png" alt="Foto da página inicial da Front-End Brasil no Github" class="box-image__photo">
+                <p class="box-image__title text-second">Organização Front-End Brasil no Github</p>
             </div>
 
-            <div class="descricao">
-                <p>A ideia do Front-end Brasil é <span>portar e iniciar discussões através de issues.</span>
+            <div class="description text-third">
+                <p>A ideia do Front-end Brasil é <span class="text-bold">portar e iniciar discussões através de
+                        issues.</span>
                     Estando no GitHub, fica mais fácil procurar respostas e perguntas já respondidas por esses grupos.
                 </p>
             </div>
 
-            <div class="btn-github">
-                <a href="#">
-                    <img src="#" alt="">
-                    <p>Front-End Brasil no Github</p>
-                </a>
-            </div>
-
-        </div>
-
-    </section>
-
-    <section id="forum" class="forum">
-        <div class="conteudo">
-            <div class="post">
-                <h2>Últimas discussões do fórum</h2>
-                <div class="posts">
-
-                </div>
-                <div class="ver-tudo">
-                    <a href="#">Veja todas as discussões</a>
-                </div>
-            </div>
+            <a href="https://github.com/frontendbr" class="btn-github bg-main a-reset text-second text-upper"
+                target="_blank">
+                <img src="./assets/images/github.png" alt="Ícone do Github" class="git-icon">
+                <span class="text-bold">Front-End Brasil no Github</span>
+            </a>
         </div>
     </section>
 
-    <section id="vagas" class="vagas-publicadas">
-        <div class="conteudo">
-            <div class="vaga">
-                <h2>Últimas vagas publicadas</h2>
-                <div class="vagas">
+    <section id="forum" class="text-center">
+        <div class="container text-upper line-w-sm">
+            <h2 class="sub-title">Fórum</h2>
+            <a href="https://github.com/frontendbr/forum" class="btn-link a-reset text-main text-bold">Ver todos os
+                tópicos</a>
+        </div>
+    </section>
 
+    <section id="vaga" class="text-center">
+        <div class="container text-upper line-w-sm">
+            <h2 class="sub-title">Vagas Publicadas</h2>
+            <a href="https://github.com/frontendbr/vagas" class="btn-link a-reset text-main text-bold"
+                target="_blank">Ver todas as
+                vagas</a>
+        </div>
+    </section>
+
+    <section id="open" class="text-center">
+        <div class="container text-upper line-w-sm">
+            <h2 class="sub-title">Open Source</h2>
+            <a href="https://github.com/frontendbr/open-source" class="btn-link a-reset text-main text-bold"
+                target="_blank">Ver todos
+                os projetos</a>
+        </div>
+    </section>
+
+    <section id="sugestao" class="text-center">
+        <div class="container text-upper line-w-sm">
+            <h2 class="sub-title">Sugestões</h2>
+            <a href="https://github.com/frontendbr/sugestoes" class="btn-link a-reset text-main text-bold"
+                target="_blank">Enviar
+                sugestões</a>
+        </div>
+    </section>
+
+    <section id="outra" class="text-center">
+        <div class="container text-upper line-w-sm">
+            <h2 class="sub-title">Outras iniciativas do Front-end&nbspBrasil</h2>
+            <div class="box">
+                <div class="box__item">
+                    <a href="https://github.com/frontendbr/me-contrata" class="a-reset text-main text-bold">
+                        <img src="./assets/images/me-contrata.png" alt="Ícone da iniciativa Me Contrata"
+                            target="_blank">
+                        <h3 class="sub-title">Me Contrata</h3>
+                    </a>
                 </div>
-                <div class="ver-tudo">
-                    <a href="#">Veja todas as vagas</a>
+
+                <div class="box__item">
+                    <a href="https://github.com/frontendbr/doe-um-livro" class="a-reset text-main text-bold">
+                        <img src="./assets/images/doe-um-livro.png" alt="Ícone da iniciativa Doe um Livro"
+                            target="_blank">
+                        <h3 class="sub-title">Doe um Livro</h3>
+                    </a>
+                </div>
+
+                <div class="box__item">
+                    <a href="https://github.com/frontendbr/compra-e-venda" class="a-reset text-main text-bold">
+                        <img src="./assets/images/compra-e-venda.png" alt="Ícone da iniciativa Compra e Venda"
+                            target="_blank">
+                        <h3 class="sub-title">Compra e Venda</h3>
+                    </a>
                 </div>
             </div>
         </div>
     </section>
 
-    <section id="open" class="projetos-publicados">
-        <div class="conteudo">
-            <div class="projeto">
-                <h2>Últimos projetos publicados</h2>
-                <div class="projetos">
-
-                </div>
-                <div class="ver-tudo">
-                    <a href="#">Veja todas os projetos</a>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="apoiadores" class="apoiadores-parceiros">
-        <div class="conteudo">
-            <h2>Nossos apoiadores e parceiros</h2>
-            <div class="apoiadores">
-                <a href="#">
-                    <img src="" alt="Logo do apoiador">
-                </a>
-            </div>
-        </div>
-    </section>
-
-    <section id="outras" class="outras-iniciativas">
-        <div class="conteudo">
-            <h2>Outras iniciativas do Front-end Brasil</h2>
-            <div class="iniciativas">
-                <img src="" alt="Ícone da iniciativa Me Contrata">
-                <h3>Me Contrata</h3>
-                <p>170 de issues</p>
-            </div>
-        </div>
-    </section>
-
-    <footer>
-        <p class="parag-1">Front-End Brasil @ 2019</p>
-        <p class="parag-2">Feito com <span>♥</span> e café </p>
+    <footer class="footer bg-main text-center line-w-sm">
+        <p class="text-second">Front-End Brasil @ 2019</p>
+        <p class="text-second">Feito com <span class="heart">♥</span> e café </p>
     </footer>
 
 </body>

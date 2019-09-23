@@ -1,7 +1,8 @@
 @import './palettes.css';
 @import './variables.css';
+
 .body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #fdfdfd;
 }
 
@@ -79,7 +80,7 @@
   line-height: var(--space-sm);
 }
 
-.intro {
+.intro {  
   font-size: 16px;
 }
 
@@ -128,7 +129,7 @@
   margin-top: var(--space-sm);
 }
 
-.box__item {
+.box__item {  
   margin: var(--space-xxs);
 }
 
@@ -157,5 +158,3 @@
 .heart {
   color: #ff0000;
 }
-
-/*# sourceMappingURL=style.css.map */
