@@ -30,7 +30,7 @@
 
 .menu {
   position: absolute;
-  left: -400px;
+  left: -1000px;
   top: 85px;
   transition-duration: 0.5s;
 }
@@ -55,7 +55,7 @@
 
 /* show navbar */
 #check:checked ~ .menu {
-  transform: translateX(400px);
+  transform: translateX(1000px);
   transition-duration: 0.3s;
 }
 
@@ -157,6 +157,120 @@
 
 .heart {
   color: #ff0000;
+}
+
+/* Tablets */
+@media only screen and (min-width: 768px) {
+  .logo {
+    margin-left: var(--space-xs);
+  }
+
+  .menu {
+    position: static;
+    margin-right: var(--space-xs);
+  }
+
+  .menu-list__item {
+    display: inline;
+    margin: var(--space-xxs);
+  }
+
+  .menu-item {
+    display: inline;
+    border: 0;
+  }
+
+  .btn-hamb {
+    display: none;
+  }
+
+  .intro__parag {
+    font-size: var(--space-sm);
+  }
+
+  .intro__second {
+    margin: var(--space-xs);
+    font-size: var(--space);
+    line-height: var(--space);
+  }
+
+  .sub-title {
+    line-height: var(--space);
+    font-size: var(--space);
+  }
+
+  .description {
+    line-height: var(--space);
+    font-size: calc(var(--space-sm) - 5px);
+    margin-bottom: var(--space-xxs);
+  }
+
+  .btn-github {
+    width: 40vw;
+  }
+
+  .other {
+    font-size: var(--space-sm);
+  }
+}
+@media only screen and (min-width: 1280px) {
+  .logo {
+    height: 100px;
+    width: 250px;
+    margin-left: var(--space-lg);
+  }
+
+  .menu {
+    margin-right: var(--space-lg);
+  }
+
+  .menu-list__item {
+    margin-right: var(--space-md);
+  }
+
+  .menu-item:hover {
+    color: #222;
+  }
+
+  .box-image {
+    width: 60vw;
+  }
+
+  .btn-github {
+    width: 15vw;
+    transition-duration: 0.3s;
+  }
+
+  .btn-github:hover {
+    background-color: var(--main-color-darkest);
+    transition-duration: 0.3s;
+  }
+
+  .btn-link:hover {
+    background-color: var(--main-color);
+    color: var(--second-color);
+    transition-duration: 0.3s;
+  }
+
+  .description {
+    margin-left: var(--screen-xs);
+    margin-right: var(--screen-xs);
+  }
+
+  .box__item {
+    margin: auto var(--space-xs);
+  }
+
+  .box-link:hover {
+    box-shadow: 0 0 10px var(--main-color-darkest);
+  }
+
+  .box-link {
+    margin: auto var(--space-xxs);
+    padding: var(--space-xs);
+    border-radius: 3px;
+    box-shadow: 0 0 3px #22222299;
+  }
 }
 
 /*# sourceMappingURL=style.css.map */
