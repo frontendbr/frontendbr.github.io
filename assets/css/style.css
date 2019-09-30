@@ -30,9 +30,9 @@
 
 .menu {
   position: absolute;
-  left: -3000px;
+  left: -400px;
   top: 85px;
-  transition: all 0.2s linear;
+  transition-duration: 0.5s;
 }
 
 .menu-item {
@@ -55,8 +55,8 @@
 
 /* show navbar */
 #check:checked ~ .menu {
-  transform: translateX(3000px);
-  transition: all 0.2s linear;
+  transform: translateX(400px);
+  transition-duration: 0.3s;
 }
 
 .text-center {
@@ -113,6 +113,7 @@
 .description {
   font-size: 14px;
   line-height: calc(var(--space-xs) + 5px);
+  padding-bottom: var(--space-xxs);
 }
 
 .btn-link {
