@@ -1,0 +1,188 @@
+body {
+  margin: 0;
+  padding: 0;
+  font-family: "Segoe UI", Tahoma, Geneva, Verdana, sans-serif;
+}
+body header {
+  display: flex;
+  justify-content: space-between;
+  padding: 0.3em 0 0.3em 0.3em;
+}
+body header .logo {
+  display: block;
+  margin: 0 0.7em;
+}
+body header .logo h1 {
+  text-align: justify;
+  text-transform: uppercase;
+}
+body header .logo h1 a {
+  text-decoration: none;
+  color: #fff;
+}
+body header .logo h1 a span {
+  margin: 0;
+  line-height: 0;
+}
+body header .logo h1 a .front {
+  display: block;
+  font-size: 16px;
+}
+body header .logo h1 a .chave {
+  font-size: 60px;
+}
+body header .btn-hamb {
+  height: 0.8em;
+  width: 30px;
+  margin: 1.7em 1em 0 0;
+  cursor: pointer;
+}
+body header .btn-hamb .linha-1 {
+  display: block;
+  background: #fff;
+  width: 2em;
+  height: 0.2em;
+  border-radius: 3px;
+  margin-bottom: 0.3em;
+}
+body header .btn-hamb .linha-2 {
+  display: block;
+  background: #fff;
+  width: 2em;
+  height: 0.2em;
+  border-radius: 3px;
+}
+body header .menu a {
+  display: none;
+}
+body h2, body h3 {
+  color: #8888dd;
+  font-size: 16px;
+  font-weight: 600;
+  text-transform: uppercase;
+}
+body header, body footer, body .btn-github {
+  background: #8888dd;
+}
+body .ver-tudo {
+  background: #ffffff;
+  border: 2px solid #7777dd;
+  border-radius: 4px;
+  text-transform: uppercase;
+  padding: 0.3em 0;
+  margin: 0 5em;
+}
+body .ver-tudo a {
+  text-decoration: none;
+  font-size: 14px;
+  font-weight: 700;
+  color: #8888dd;
+}
+body section {
+  margin: 3em 0;
+}
+body section .conteudo {
+  text-align: center;
+}
+body .inicio .intro {
+  text-transform: uppercase;
+  margin: 0 2em;
+}
+body .inicio .intro p {
+  color: #888888;
+  font-size: 12px;
+}
+body .inicio .intro span {
+  color: #333333;
+  font-weight: 600;
+  font-size: 20px;
+}
+body .inicio .box {
+  display: flex;
+  justify-content: center;
+  height: 12em;
+  width: 100;
+  margin: 2.5em;
+  border-radius: 8px;
+  box-shadow: 0 0 0.5em #00000030;
+  z-index: 1;
+}
+body .inicio .box a {
+  text-decoration: none;
+  margin: 0;
+  width: 100%;
+}
+body .inicio .box img {
+  display: block;
+  height: 83%;
+  width: 100%;
+  background: #aaa;
+  border-radius: 8px 8px 0 0;
+}
+body .inicio .box p {
+  position: relative;
+  background-color: #0099ff;
+  color: #ffffff;
+  width: 100%;
+  font-size: 12px;
+  font-weight: 600;
+  padding: 0.7em 0;
+  margin: 0;
+  opacity: 0.7;
+  border-radius: 0 0 8px 8px;
+}
+body .inicio .descricao {
+  margin: 0 2em;
+  font-size: 14px;
+}
+body .inicio .descricao p {
+  color: #555555;
+  font-weight: 100;
+}
+body .inicio .descricao p span {
+  font-weight: 600;
+}
+body .inicio .btn-github {
+  margin: 0 3em;
+  border-radius: 5px;
+  padding: 0.4em 0;
+}
+body .inicio .btn-github a {
+  display: flex;
+  justify-content: center;
+  text-decoration: none;
+}
+body .inicio .btn-github a img {
+  background: #fff;
+  width: 12px;
+  height: 12px;
+  align-self: center;
+  margin-right: 0.7em;
+}
+body .inicio .btn-github a p {
+  color: #fff;
+  font-weight: 700;
+  font-size: 12px;
+  text-transform: uppercase;
+}
+body footer {
+  color: #fff;
+  text-align: center;
+}
+body footer .parag-1 {
+  font-weight: bold;
+  font-size: 16px;
+  margin: 0;
+  padding-top: 1em;
+}
+body footer .parag-2 {
+  font-size: 14px;
+  margin: 0;
+  padding-bottom: 1em;
+}
+body footer .parag-2 span {
+  font-size: 20px;
+  color: #ff0000;
+}
+
+/*# sourceMappingURL=my-style.css.map */

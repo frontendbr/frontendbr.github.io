@@ -1,0 +1,34 @@
+/* colors */
+:root {
+  --main-color: #8888dd;
+  --main-color-dark: #6666dd;
+  --main-color-darkest: #0000cc;
+  --second-color: #f9f9f9;
+  --third-color: #888888;
+}
+
+.text-main {
+  color: var(--main-color);
+}
+
+.text-second {
+  color: var(--second-color);
+}
+
+.text-third {
+  color: var(--third-color);
+}
+
+.bg-main {
+  background-color: var(--main-color);
+}
+
+.bg-second {
+  background-color: var(--second-color);
+}
+
+.bg-third {
+  background-color: var(--third-color);
+}
+
+/*# sourceMappingURL=palettes.css.map */

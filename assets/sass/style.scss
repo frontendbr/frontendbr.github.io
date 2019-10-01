@@ -1,7 +1,8 @@
 @import './palettes.css';
 @import './variables.css';
+
 .body {
-  font-family: "Lucida Sans", "Lucida Sans Regular", "Lucida Grande", "Lucida Sans Unicode", Geneva, Verdana, sans-serif;
+  font-family: 'Lucida Sans', 'Lucida Sans Regular', 'Lucida Grande', 'Lucida Sans Unicode', Geneva, Verdana, sans-serif;
   background-color: #fdfdfd;
 }
 
@@ -93,11 +94,11 @@
   opacity: 0.9;
 }
 
-.s-left {
+.s-left{
   position: relative;
 }
 
-.s-right {
+.s-right{
   transform: rotateY(180deg);
   position: relative;
 }
@@ -109,7 +110,7 @@
   border-radius: 0 10px 10px 0;
 }
 
-.stripes-r {
+.stripes-r{
   height: calc(var(--space-sm) - 20px);
   margin: var(--space-xxs) 0;
   border: 0;
@@ -121,6 +122,7 @@
 }
 
 .s-size-md {
+
   width: 80%;
 }
 
@@ -142,7 +144,7 @@
   position: relative;
 }
 
-.intro {
+.intro {  
   font-size: 16px;
 }
 
@@ -192,7 +194,7 @@
   margin-top: var(--space-sm);
 }
 
-.box__item {
+.box__item {  
   margin: var(--space-xxs);
 }
 
@@ -254,7 +256,7 @@
   .intro__second {
     margin: var(--space-xs);
     font-size: var(--space);
-    line-height: var(--space);
+    line-height: var(--space);    
   }
 
   .sub-title {
@@ -280,21 +282,22 @@
     height: calc(var(--space-sm) - 15px);
     margin: var(--space-xs) 0;
   }
-
-  .stripes-r {
+  
+  .stripes-r{
     height: calc(var(--space-sm) - 15px);
     margin: var(--space-xs) 0;
   }
 }
+
 @media only screen and (min-width: 1280px) {
-  .logo {
+  .logo {    
     height: 100px;
     width: 250px;
     margin-left: var(--space-lg);
   }
 
   .menu {
-    margin-right: var(--space-lg);
+    margin-right: var(--space-lg);    
   }
 
   .menu-list__item {
@@ -308,7 +311,7 @@
   .box-image {
     width: 60vw;
   }
-
+  
   .btn-github {
     width: 15vw;
     transition-duration: 0.3s;
@@ -316,6 +319,7 @@
 
   .btn-github:hover {
     background-color: var(--main-color-darkest);
+
     transition-duration: 0.3s;
   }
 
@@ -331,7 +335,7 @@
   }
 
   .box__item {
-    margin: auto var(--space-xs);
+    margin: auto var(--space-xs); 
   }
 
   .box-link:hover {
@@ -353,11 +357,9 @@
     height: calc(var(--space-sm) - 8px);
     margin: var(--space-xs) 0;
   }
-
-  .stripes-r {
+  
+  .stripes-r{
     height: calc(var(--space-sm) - 8px);
     margin: var(--space-xs) 0;
   }
 }
-
-/*# sourceMappingURL=style.css.map */
