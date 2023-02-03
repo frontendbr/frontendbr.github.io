@@ -7,10 +7,11 @@
 ________
 #### Repositórios da Front-End Brasil
 
-- [Fórum](https://github.com/frontendbr/forum)
-- [Eventos](https://github.com/frontendbr/eventos)
-- [Vagas](https://github.com/frontendbr/vagas)
-- [Poste mais!](https://github.com/frontendbr/poste-mais)
-- [Open Source](https://github.com/frontendbr/open-source)
-- [Sugestões](https://github.com/frontendbr/sugestoes)
 - [Doe um livro](https://github.com/frontendbr/doe-um-livro)
+- [Eventos](https://github.com/frontendbr/eventos)
+- [Fórum](https://github.com/frontendbr/forum)
+- [Me Contrata](https://github.com/frontendbr/me-contrata)
+- [Open Source](https://github.com/frontendbr/open-source)
+- [Poste mais!](https://github.com/frontendbr/poste-mais)
+- [Sugestões](https://github.com/frontendbr/sugestoes)
+- [Vagas](https://github.com/frontendbr/vagas)

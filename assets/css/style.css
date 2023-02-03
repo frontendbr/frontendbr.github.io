@@ -65,8 +65,8 @@ display block{width:102.08333333333333%;margin:0 -1.0416666666666665%;*width:102
 .footer{margin:20px auto;border-top:1px solid #e3e3e3;}
 .footer p,.footer a{text-align:center;color:#49525f}
 .nav-main{width:100%;display:table;margin:20px auto}
-.nav-structure{width:100%;display:table;margin:20px auto}
-.nav-list{list-style-image:none;list-style-type:none;margin:0;padding:0;}
+.nav-structure{width:100%;margin:20px auto}
+.nav-list{display:-webkit-box;display:-moz-box;display:-webkit-flex;display:-ms-flexbox;display:box;display:flex;-webkit-box-orient:horizontal;-moz-box-orient:horizontal;-o-box-orient:horizontal;-webkit-box-lines:multiple;-moz-box-lines:multiple;-o-box-lines:multiple;-webkit-flex-flow:row wrap;-ms-flex-flow:row wrap;flex-flow:row wrap;-webkit-box-pack:center;-moz-box-pack:center;-o-box-pack:center;-ms-flex-pack:center;-webkit-justify-content:center;justify-content:center;}
 .nav-list .nav-item{display:inline;float:left;overflow:hidden;width:31.25%;margin:0 1.0416666666666665%;*width:31.25% -correction;*margin:0 1.0416666666666665% -correction;}
 @media screen and (max-width: 767px){.nav-list .nav-item{display:inline;float:left;overflow:hidden;width:97.91666666666666%;margin:0 1.0416666666666665%;*width:97.91666666666666% -correction;*margin:0 1.0416666666666665% -correction}
 }.nav-list .nav-item .nav-link{display:block;margin:10px auto;text-align:center;text-transform:uppercase;letter-spacing:.0625em;color:#ecf0f1}
